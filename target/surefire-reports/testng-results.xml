@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="8" total="16" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="153590" started-at="2021-06-06T16:06:06 IST" finished-at="2021-06-06T16:08:39 IST">
+    <groups>
+      <group name="sanity">
+        <method signature="HomePageTest.testPageNewArrival()[pri:4, instance:PageTest.HomePageTest@71423665]" name="testPageNewArrival" class="PageTest.HomePageTest"/>
+        <method signature="HomePageTest.testPageWishlist()[pri:2, instance:PageTest.HomePageTest@71423665]" name="testPageWishlist" class="PageTest.HomePageTest"/>
+        <method signature="SearchPageTest.testsearchBoxIsDisplayOrNot()[pri:6, instance:PageTest.SearchPageTest@20398b7c]" name="testsearchBoxIsDisplayOrNot" class="PageTest.SearchPageTest"/>
+        <method signature="SearchPageTest.testsearchIconClickIsWorkingOrNot()[pri:8, instance:PageTest.SearchPageTest@20398b7c]" name="testsearchIconClickIsWorkingOrNot" class="PageTest.SearchPageTest"/>
+      </group> <!-- sanity -->
+      <group name="smock">
+        <method signature="HomePageTest.testHomePageSearch()[pri:5, instance:PageTest.HomePageTest@4bec1f0c]" name="testHomePageSearch" class="PageTest.HomePageTest"/>
+        <method signature="HomePageTest.testPageCart()[pri:3, instance:PageTest.HomePageTest@4bec1f0c]" name="testPageCart" class="PageTest.HomePageTest"/>
+        <method signature="HomePageTest.testPageTitle()[pri:1, instance:PageTest.HomePageTest@4bec1f0c]" name="testPageTitle" class="PageTest.HomePageTest"/>
+        <method signature="SearchPageTest.testsearchEnterKeyIsWorkingOrNot()[pri:7, instance:PageTest.SearchPageTest@29ca901e]" name="testsearchEnterKeyIsWorkingOrNot" class="PageTest.SearchPageTest"/>
+      </group> <!-- smock -->
+    </groups>
+    <test name="Cross Browser Test in chrome" duration-ms="65449" started-at="2021-06-06T16:06:06 IST" finished-at="2021-06-06T16:07:11 IST">
+      <class name="PageTest.SearchPageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:PageTest.SearchPageTest@29ca901e]" name="setUp" is-config="true" duration-ms="11834" started-at="2021-06-06T16:06:53 IST" finished-at="2021-06-06T16:07:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testsearchEnterKeyIsWorkingOrNot()[pri:7, instance:PageTest.SearchPageTest@29ca901e]" name="testsearchEnterKeyIsWorkingOrNot" duration-ms="5451" started-at="2021-06-06T16:07:05 IST" finished-at="2021-06-06T16:07:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testsearchEnterKeyIsWorkingOrNot -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:PageTest.SearchPageTest@29ca901e]" name="tearDown" is-config="true" duration-ms="676" started-at="2021-06-06T16:07:10 IST" finished-at="2021-06-06T16:07:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- PageTest.SearchPageTest -->
+      <class name="PageTest.HomePageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:PageTest.HomePageTest@4bec1f0c]" name="setUp" is-config="true" duration-ms="14629" started-at="2021-06-06T16:06:06 IST" finished-at="2021-06-06T16:06:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testPageTitle()[pri:1, instance:PageTest.HomePageTest@4bec1f0c]" name="testPageTitle" duration-ms="108" started-at="2021-06-06T16:06:20 IST" finished-at="2021-06-06T16:06:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:PageTest.HomePageTest@4bec1f0c]" name="tearDown" is-config="true" duration-ms="1007" started-at="2021-06-06T16:06:20 IST" finished-at="2021-06-06T16:06:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:PageTest.HomePageTest@4bec1f0c]" name="setUp" is-config="true" duration-ms="13528" started-at="2021-06-06T16:06:21 IST" finished-at="2021-06-06T16:06:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testPageCart()[pri:3, instance:PageTest.HomePageTest@4bec1f0c]" name="testPageCart" duration-ms="909" started-at="2021-06-06T16:06:35 IST" finished-at="2021-06-06T16:06:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageCart -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:PageTest.HomePageTest@4bec1f0c]" name="tearDown" is-config="true" duration-ms="1415" started-at="2021-06-06T16:06:36 IST" finished-at="2021-06-06T16:06:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:PageTest.HomePageTest@4bec1f0c]" name="setUp" is-config="true" duration-ms="9727" started-at="2021-06-06T16:06:37 IST" finished-at="2021-06-06T16:06:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testHomePageSearch()[pri:5, instance:PageTest.HomePageTest@4bec1f0c]" name="testHomePageSearch" duration-ms="5430" started-at="2021-06-06T16:06:47 IST" finished-at="2021-06-06T16:06:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePageSearch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:PageTest.HomePageTest@4bec1f0c]" name="tearDown" is-config="true" duration-ms="695" started-at="2021-06-06T16:06:52 IST" finished-at="2021-06-06T16:06:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- PageTest.HomePageTest -->
+    </test> <!-- Cross Browser Test in chrome -->
+    <test name="Cross Browser Test in firefox" duration-ms="88045" started-at="2021-06-06T16:07:11 IST" finished-at="2021-06-06T16:08:39 IST">
+      <class name="PageTest.SearchPageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:PageTest.SearchPageTest@20398b7c]" name="setUp" is-config="true" duration-ms="19069" started-at="2021-06-06T16:07:51 IST" finished-at="2021-06-06T16:08:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testsearchBoxIsDisplayOrNot()[pri:6, instance:PageTest.SearchPageTest@20398b7c]" name="testsearchBoxIsDisplayOrNot" duration-ms="73" started-at="2021-06-06T16:08:10 IST" finished-at="2021-06-06T16:08:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testsearchBoxIsDisplayOrNot -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:PageTest.SearchPageTest@20398b7c]" name="tearDown" is-config="true" duration-ms="3326" started-at="2021-06-06T16:08:10 IST" finished-at="2021-06-06T16:08:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:PageTest.SearchPageTest@20398b7c]" name="setUp" is-config="true" duration-ms="16586" started-at="2021-06-06T16:08:13 IST" finished-at="2021-06-06T16:08:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testsearchIconClickIsWorkingOrNot()[pri:8, instance:PageTest.SearchPageTest@20398b7c]" name="testsearchIconClickIsWorkingOrNot" duration-ms="6478" started-at="2021-06-06T16:08:30 IST" finished-at="2021-06-06T16:08:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testsearchIconClickIsWorkingOrNot -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:PageTest.SearchPageTest@20398b7c]" name="tearDown" is-config="true" duration-ms="2645" started-at="2021-06-06T16:08:36 IST" finished-at="2021-06-06T16:08:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- PageTest.SearchPageTest -->
+      <class name="PageTest.HomePageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:PageTest.HomePageTest@71423665]" name="setUp" is-config="true" duration-ms="16197" started-at="2021-06-06T16:07:11 IST" finished-at="2021-06-06T16:07:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testPageWishlist()[pri:2, instance:PageTest.HomePageTest@71423665]" name="testPageWishlist" duration-ms="39" started-at="2021-06-06T16:07:27 IST" finished-at="2021-06-06T16:07:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageWishlist -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:PageTest.HomePageTest@71423665]" name="tearDown" is-config="true" duration-ms="3515" started-at="2021-06-06T16:07:27 IST" finished-at="2021-06-06T16:07:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:PageTest.HomePageTest@71423665]" name="setUp" is-config="true" duration-ms="17018" started-at="2021-06-06T16:07:31 IST" finished-at="2021-06-06T16:07:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testPageNewArrival()[pri:4, instance:PageTest.HomePageTest@71423665]" name="testPageNewArrival" duration-ms="38" started-at="2021-06-06T16:07:48 IST" finished-at="2021-06-06T16:07:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageNewArrival -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:PageTest.HomePageTest@71423665]" name="tearDown" is-config="true" duration-ms="3051" started-at="2021-06-06T16:07:48 IST" finished-at="2021-06-06T16:07:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- PageTest.HomePageTest -->
+    </test> <!-- Cross Browser Test in firefox -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
